@@ -261,7 +261,10 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-image: image("https://wallpapers.com/images/high/jack-harlow-with-crowd-h9eyr5terq4k51qt.webp");
+    clip-path: ellipse(148% 70% at 91% -14%);
+    background-image: url("https://wallpapers.com/images/high/jack-harlow-with-crowd-h9eyr5terq4k51qt.webp");
+    background-size: cover;
+    background-position: center;
   }
 }
 
