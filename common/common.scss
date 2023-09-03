@@ -268,6 +268,17 @@ html {
   }
 }
 
+//this is for special purpose
+
+.lightbox-wrapper .lightbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 5px;
+  float: right;
+  width: 33%;
+}
+
 html body #main-outlet {
   margin-top: 280px;
   margin-bottom: 50px;
