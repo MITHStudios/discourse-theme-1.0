@@ -60,7 +60,7 @@
 .above-main-container-outlet.search-banner {
   .custom-search-banner-wrap {
     padding: 1em 0 2em;
-    color: var(--tertiary);
+    color: #FFFFFF;
     .mobile-view & {
       color: var(--secondary);
     }
@@ -199,7 +199,7 @@ div.ac-wrap {
 .drop-down-mode .d-header-icons .active .icon {
   border: 1px solid transparent;
   .d-icon {
-    color: var(--tertiary);
+    color: #FFFFFF;
   }
 }
 
@@ -231,11 +231,11 @@ div.ac-wrap {
 }
 
 .timeline-container .topic-timeline .timeline-handle {
-  background-color: var(--tertiary);
+  background-color: #FFFFFF;
 }
 
 .timeline-container .topic-timeline .timeline-scrollarea {
-  border-left-color: var(--tertiary);
+  border-left-color: #FFFFFF;
 }
 
 // graceful ish style
@@ -533,7 +533,7 @@ html body #main-outlet {
     background: linear-gradient(
       90deg,
       var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
+      #FFFFFF 100%
     );
     clip-path: ellipse(148% 70% at 91% -14%);
     content: "";
@@ -565,7 +565,7 @@ html body #main-outlet {
 }
 
 .topic-list .main-link.focused + .posters {
-  box-shadow: inset 3px 0 0 var(--tertiary);
+  box-shadow: inset 3px 0 0 #FFFFFF;
 }
 
 .topic-list .main-link.focused {
