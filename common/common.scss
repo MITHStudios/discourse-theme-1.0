@@ -577,7 +577,9 @@ html body #main-outlet {
 .sidebar-section-link-prefix.icon {
   margin-left: 30px;
 }
-
+.sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
+    margin: 0px;
+}
 .topic-excerpt {
   font-size: 19px !important;
   font-family: 'Roboto', sans-serif !important;
