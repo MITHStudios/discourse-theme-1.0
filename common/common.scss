@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 // custom search banner customizations
 .custom-search-banner-wrap {
@@ -576,4 +576,9 @@ html body #main-outlet {
 
 .sidebar-section-link-prefix.icon {
   margin-left: 30px;
+}
+
+.topic-excerpt {
+  font-size: 19px !important;
+  font-family: 'Roboto', sans-serif !important;
 }
