@@ -43,6 +43,7 @@
         {{category-link topic.category}}
       {{/unless}}
     {{/unless}}
+    <span class='topic-creator'>{{d-icon "user"}} <a href="/users/{{topic.creator.username}}" data-auto-route="true" data-user-card="{{topic.creator.username}}">{{topic.creator.username}}</a></span>
 	{{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
     {{raw "list/action-list" topic=topic postNumbers=topic.liked_post_numbers className="likes" icon="heart"}}
   </div>
@@ -63,6 +64,19 @@
 {{/if}}
 
 <td class="num views {{topic.viewsHeat}} topic-list-data">{{number topic.views numberKey="views_long"}}</td>
+
+<td class="last-post">
+<div class='poster-avatar'>
+<a href="{{topic.lastPostUrl}}" data-user-card="{{topic.last_poster_username}}">{{avatar topic.lastPosterUser imageSize="medium"}}</a>
+</div>
+<div class='poster-info'>
+<span class='editor'><a href="/users/{{topic.last_poster_username}}" data-auto-route="true" data-user-card="{{topic.last_poster_username}}">{{topic.last_poster_username}}</a></span>
+<br />
+<a href="{{topic.lastPostUrl}}">
+{{format-date topic.bumpedAt format="tiny"}}
+</a>
+</div>
+</td>
 </script>
 
 <script type='text/x-handlebars' data-template-name='topic-list-header.raw'>
@@ -104,6 +118,7 @@
   {{raw "topic-list-header-column" sortable=sortable number='true' order='op_likes' name='likes'}}
 {{/if}}
 {{raw "topic-list-header-column" sortable=sortable number='true' order='views' name='views'}}
+{{raw "topic-list-header-column" sortable=sortable number='true' order='activity' name='activity'}}
 {{~raw-plugin-outlet name="topic-list-header-after"~}}
 </script>
 
