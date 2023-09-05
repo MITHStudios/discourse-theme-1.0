@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -441,6 +443,8 @@ html body #main-outlet {
       }
       .title {
         font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
       }
       .link-area {
         display: flex;
