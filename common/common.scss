@@ -580,6 +580,9 @@ html body #main-outlet {
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
     margin: 0px!important;
 }
+.sidebar-custom-sections .sidebar-section[data-section-name="community"] .sidebar-section-link-prefix.icon {
+  margin: 0px !important;
+}
 .topic-excerpt {
   font-size: 19px !important;
   font-family: 'Roboto', sans-serif !important;
