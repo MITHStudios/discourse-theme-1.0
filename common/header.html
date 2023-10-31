@@ -241,7 +241,6 @@
     </div>
   </header>
   
-  
   <script type="text/discourse-plugin" version="0.8">
     const head = document.getElementsByTagName('head')[0];
     const user = api.getCurrentUser();
@@ -249,7 +248,7 @@
     const script = document.createElement('script');
     script.type = 'text/javascript';
     if (!username.startsWith('ae.')) {
-      script.src = `https://jackharlow-api.mithxlab.com/api/user/membership?username=${username}&domain=mithstudio.com`;  
+      script.src = `https://develop-api.mithxlab.com/api/user/membership?username=${username}&domain=mithstudio.com`;
     }
     head.appendChild(script);
   </script>
