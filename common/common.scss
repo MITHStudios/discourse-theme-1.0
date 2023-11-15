@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
-  background-color: #000;
-}
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
   max-width: unset;
   color: var(--secondary);
-  color: red !important;
+
   h1 {
     font-size: 4em;
   }
@@ -254,7 +251,7 @@ div.ac-wrap {
 
 html {
   body {
-    background:#FFFFFF;
+    background: #000;
   }
   .background-container {
     position: fixed;
