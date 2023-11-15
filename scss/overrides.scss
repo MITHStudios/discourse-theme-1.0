@@ -1,6 +1,6 @@
 @font-face {
     font-family: __sansHeading_f74452;
-    src: url($font-1) format('woff');
+    src: url($font1) format('woff');
     font-display: swap;
     font-weight: 400;
     font-style: normal
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: __sansHeading_f74452;
-    src: url($font-2) format('woff2');
+    src: url($font2) format('woff2');
     font-display: swap;
     font-weight: 400;
     font-style: normal
@@ -29,7 +29,7 @@
 
 @font-face {
     font-family: "__serifHeading_7daea9";
-    src: url($font-3) format('truetype');
+    src: url($font3) format('truetype');
     font-display: swap;
     font-weight: 400;
     font-style: italic
@@ -37,7 +37,7 @@
 
 @font-face {
     font-family: "__serifHeading_7daea9";
-    src: url($font-4) format('truetype');
+    src: url($font4) format('truetype');
     font-display: swap;
     font-weight: 400;
     font-style: normal
@@ -81,7 +81,8 @@ html {
 
 body {
     margin: 0;
-    line-height: inherit
+    line-height: inherit;
+    font-family: __sansHeading_f74452;
 }
 
 hr {
