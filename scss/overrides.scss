@@ -93,7 +93,8 @@ body h3,
 body h4,
 body h5,
 body h6,
-body .title {
+body .title
+body #header {
     font-family: "__serifHeading_7daea9","__serifHeading_Fallback_7daea9" !important;
 }
 
@@ -3219,6 +3220,7 @@ body {
 }
 .sidebar-wrapper .sidebar-container {
     border-right: none !important;
+    font-family: "__serifHeading_7daea9","__serifHeading_Fallback_7daea9" !important;
 }
 .sidebar-section-link-wrapper .sidebar-section-link.active {
     background-color: transparent !important;
