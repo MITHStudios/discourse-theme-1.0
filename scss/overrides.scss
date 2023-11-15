@@ -82,7 +82,11 @@ html {
 body {
     margin: 0;
     line-height: inherit;
-    font-family: __sansHeading_f74452;
+    font-family: "__serifHeading_7daea9","__serifHeading_Fallback_7daea9" !important;
+}
+
+body * {
+    font-family: "__serifHeading_7daea9","__serifHeading_Fallback_7daea9" !important;
 }
 
 hr {
@@ -3197,4 +3201,11 @@ body {
     .xl\:pl-0 {
         padding-left: 0
     }
+}
+
+.sidebar-section-link-wrapper .sidebar-section-link {
+    color: #bbbbbb !important;
+}
+.topic-list .topic-excerpt {
+    color: #bbbbbb !important;
 }
