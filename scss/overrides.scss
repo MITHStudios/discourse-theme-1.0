@@ -82,11 +82,17 @@ html {
 body {
     margin: 0;
     line-height: inherit;
-    font-family: "__serifHeading_7daea9","__serifHeading_Fallback_7daea9" !important;
+    
+    font-family: helvetica,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    line-height: 110%;
 }
 
-body *,
-.topic-list .topic-excerpt {
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
     font-family: "__serifHeading_7daea9","__serifHeading_Fallback_7daea9" !important;
 }
 
@@ -3209,4 +3215,14 @@ body {
 }
 .topic-list .topic-excerpt {
     color: #bbbbbb !important;
+}
+.sidebar-wrapper .sidebar-container {
+    border-right: none !important;
+}
+.sidebar-section-link-wrapper .sidebar-section-link.active {
+    background-color: transparent !important;
+    color: var(--primary) !important;
+}
+.full-width .contents .topic-list .topic-list-body .topic-list-item {
+    border-color: hsla(0,0%,100%,.2) !important;
 }
